@@ -6,7 +6,7 @@ public class MinMax {
         System.out.print("Kaç tane sayı gireceksiniz:");
         int n=input.nextInt();
         int i=1;
-        int min=0,max=0,temp=0;
+        int min = Integer.MAX_VALUE,max = Integer.MIN_VALUE, temp;
         while (i<=n){
             System.out.println(i+". Sayıyı giriniz.");
             temp=input.nextInt();
