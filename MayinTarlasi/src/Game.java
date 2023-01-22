@@ -5,11 +5,11 @@ public class Game {
     int tarla[][];
     String kullaniciArayuz[][];
 
-    public MTOMineSweeper(int satirSay, int sutunSay) {
+    public Game(int satirSay, int sutunSay) {
         this.satirSay = satirSay;
         this.sutunSay = sutunSay;
     }
-    public MTOMineSweeper() {
+    public Game() {
     }
 
     public void satirSayAl(){
